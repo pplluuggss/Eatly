@@ -1,0 +1,358 @@
+
+/*--------Main------*/
+.main-img{
+    width: 1200px;
+    height: 1000px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-size: cover;
+    background-image: url(../img/Map.png);
+}
+
+/*------Check block---------*/
+.Check-block{
+    width: 484.27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vector{
+    background-image: url(../img/Vector2.png);
+    justify-content: center;
+    transform: translateX(500px);
+    width: 29.16px;
+    height: 27.73px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.img-card img{
+    width: 30px;
+    height: 28px;
+    justify-content: center;
+    transform: translateX(840px);
+}
+
+.card{
+    width: 484.27px;
+    height: 76.8px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 90px #BAB3B3;
+    border-radius: 8.51px;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.block-space{
+    display: flex;
+    justify-content: space-between;
+    width: 362.23px;
+    height: 44.79px;
+    align-items: center;
+}
+
+.card-txt{
+    display: block;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.block-button{
+    display: block;
+    gap: 10px;
+    width: 90px;
+}
+
+.plus-minus{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.minus{
+    background-image: url(../img/Minus.png);
+    background-size: cover;
+    width: 23.72px;
+    height: 22.43px;
+}
+
+.plus{
+    background-image: url(../img/Plus-but.png);
+    background-size: cover;
+    width: 23.72px;
+    height: 22.43px;
+}
+
+.card-txt>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15.64px;
+    color: #323142;
+}
+
+.card-txt>span{
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    color: #323142;
+}
+
+.plus-minus>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12.5px;
+    color: #323142;
+}
+
+.block-button>span{
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    color: #323142;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coupon{
+    width: 484px;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.input{
+    width: 384.71px;
+    height: 49.78px;
+    background-color: #F1F1F1;   
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    border-radius: 7.09px;
+}
+
+.ticket{
+    background-image: url(../img/ticket.png);
+    background-size: cover;
+    width: 30px;
+    height: 21.32px;
+    margin-left: 10px;
+}
+
+.input>p{
+    color: #C2C3CB;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.button{
+    width: 93.87px;
+    padding: 15px;
+    background-color: #6C5FBC;
+    border-radius: 7.09px;
+}
+.button>p{
+    color: #F3F5F6;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.chekk_block{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 483.81px;
+}
+
+.chekk_block>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #323142;
+}
+
+.hr_chekk{
+    width: 100%;
+    height: 1px;
+    margin: 5px 0;
+    background-image: linear-gradient(to right, #fff 10%, #323142 40%);
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    opacity: 0.2;
+    margin-top: 10px;
+}
+
+.p-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.p-block>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #323142;
+}
+.button-pay{
+    padding: 17px 182px;
+    background-color: #6C5FBC;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.button-pay>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #F1F1F1;
+}
+
+.arrow-left{
+    background-image: url(../img/Arrow-left.png);
+    background-size: cover;
+    transform: translate(-130px, -100px);
+    width: 85.53px;
+    height: 85.53px;
+
+}
+.arrow-right{
+    background-image: url(../img/Arrow-right.png);
+    background-size: cover;
+    transform: translate(530px, -190px);
+    width: 85.53px;
+    height: 85.53px;
+
+}
+
+/*-----------------Subscribe--------------------*/
+.Subscribe {
+    margin-top: 180px;
+    background-image: url(../img/Subscribe.png);
+    width: 1285px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    padding-top: 37px;
+    padding-left: 66px; 
+}
+.block-txt-sub
+{
+    display: grid;
+    gap: 9px;
+}
+.block-txt-sub h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 105px;
+}
+.input-container {
+    margin-top: 10px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    padding: 22px 0 22px 22px; /* Adjust padding to accommodate the button */
+    border-radius: 14.23px;
+    background: #DEDCEF;
+    border: none;
+    width: 439.73px; /* Adjust width as needed */
+
+    color: #878787;
+    font-family: "Poppins", sans-serif;
+    font-size: 16.27px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  .input-container button {
+    margin-left: 320px;
+    color: #f7f8fa;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.75px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    width: 132.37px;
+    height: 53.44px;
+    border-radius: 11.25px;
+    background: #6c5fbc;
+    border: none;
+    cursor: pointer;
+    padding: 15px 25px;
+  }
+ 
+
+  /*-----------Footer-------------*/
+footer
+{
+    margin-top: 155px;
+}
+
+@media (max-width:480px){
+    .but-header {
+        display: none;
+        
+    }
+    .main-img{
+        width: 430px;
+        height: 575.94px;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        background-size: cover;
+        background-image: url(../img/Map.png);
+    }
+    .Check-block{
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        width: 390px;
+    }
+    .vector{
+        background-image: url(../img/Vector2.png);
+        justify-content: center;
+        transform: translateX(370px);
+    }
+    .coupon{
+        width: 390px;
+        display: flex;
+        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .input{
+        width: 250px;
+    }
+    .chekk_block{
+        width: 390px;
+    }
+    .Subscribe {
+        margin-top: 50px;
+        width: 430px;
+        height: 340px;
+
+    }
+}

@@ -1,0 +1,557 @@
+
+/*------------BANNER--------------*/
+p>a
+{
+    font-size: 29px;
+    font-family: Inter-SemiBold;
+    color: #323142;
+    text-decoration: none;
+}
+.banner{
+    max-width: 880px;
+    height: 360px;
+    border: 1px solid #ffff;
+    box-shadow: 5.38px 64.61px 32.31px #BAB3B3;
+    border-radius: 21.33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.banner img{
+    width: 885px;
+    height: 268.8px;
+    margin-left: -2px;
+}
+
+.span-img img{
+    width: 24.87px;
+    height: 24.87px;
+}
+
+.banner-txt{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: flex;
+    max-width: 820px;
+    align-items: center;
+    height: 70px;
+}
+
+.banner-txt p{
+    font-size: 29px;
+    font-family: Inter-SemiBold;
+    color: #323142;
+}
+
+.banner-txt img{
+    width: 43.93px;
+    height: 43.93px;
+}
+
+.span-txt{
+    justify-content: space-between;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-size: 18px;
+    color: #8E97A6;
+    font-family: Inter-r;
+}
+
+/*-------Popular-------*/
+.Popular{
+    margin-top: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Popular p{
+    font-size: 24.89px;
+    color: #323142;
+    font-family: Inter-SemiBold;
+}
+
+.Our_Top_Dishes-img {
+    margin-top: 40px;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.Our_Top_Dishes-img img
+{
+    width: 270px;
+    height: 420px;
+}
+
+.main
+{
+    margin-top: 100px;
+    height: 0;
+    border: 1px solid #cbcbcb;
+}
+
+/*----------------Questions-----------------*/
+h1 span
+{
+    color: #5C4EAE;
+    font-family: Inter-SemiBold;
+    font-size: 45px;
+}
+.Questions {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.Questions h1
+{
+    font-family: Inter-SemiBold;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.Questions img{
+    width: 30px;
+    height: 28px;
+    justify-content: center;
+    transform: translateX(840px);
+    display: none;
+}
+
+.question-block{
+    max-width: 819.2px;
+    height: 351.31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question-card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.Questions p{
+    font-family: Inter-SemiBold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.button-plus{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #6C5FBC;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 21px;
+}
+.menu-hr{
+    width: 100%;
+}
+
+.question-block span{
+    margin-top: 25px;
+    font-size: 14.22px;
+    font-family: Inter-r;
+}
+/*-----------Footer-------------*/
+footer
+{
+    margin-top: 155px;
+    width: 100%;
+    background: #eaeaea;
+    padding-bottom: 80px;
+}
+.f-block1 {
+    padding-top: 95px;
+    display: flex;
+    align-items: center;
+    width: 1246px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+.logo-f {
+    background-image: url(../img/Logo.svg);
+    width: 150.7px;
+    height: 57px;
+    background-size: cover;
+    float: left;
+}
+.nav-f {
+    display: flex;
+    float: right;
+}
+.nav-f ul
+{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.nav-f ul, li
+{
+    color: #999999;
+    font-family: Inter-m;
+    font-size: 17.83px;
+    font-weight: 500;
+    line-height: 26.74px;
+    text-decoration: none;
+}
+.footer-hr{
+    height: 0;
+    border: 1px solid #818181;
+    opacity: 0.25;
+    width: 1246px;
+    margin-top: 30px;
+    margin-bottom: 57px;
+}
+.f-block2 {
+    justify-content: space-between;
+    display: flex;
+    width: 1246px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.f-block2 p
+{
+    float: left;
+    color: #999999;
+    font-family: Inter-m;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.icons {
+    display: flex;
+    float: right;
+    gap: 55px;
+}
+.icons img
+{
+    width: auto;
+    height: 22px;
+}
+
+/*Бургер меню*/
+.open{
+    display: flex !important;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #7FC2FF;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #7FC2FF;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+@media (max-width:480px){
+    .burger { display: flex;}
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 50%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 150px 40px;
+        background-color: rgb(255, 255, 255,0.8);
+        animation: burgerAnimation 0.4s;
+    }
+    .header {
+        width:390px;
+        display: flex; 
+        height: 62px;
+        justify-content: space-between;
+        margin-top: 48px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav {
+        margin-left: 0px;
+    }
+    .nav ul
+    {
+        display: block;
+        gap: 50px;
+        list-style: none;
+    }
+
+    .but-header {
+        display: none;
+        
+    }
+    
+    
+    
+    /*------------BANNER--------------*/
+    p>a
+    {
+        font-size: 29px;
+        font-family: Inter-SemiBold;
+        color: #323142;
+        text-decoration: none;
+    }
+    .banner{
+        width: 390px;
+        height: 236.73px;
+        border: 1px solid #ffff;
+        box-shadow: 5.38px 64.61px 32.31px #BAB3B3;
+        border-radius: 21.33px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+    
+    .banner img{
+        width: 395px;
+        height: 140.11px;
+        margin-left: -2px;
+    }
+    
+    .span-img img{
+        width: 24.87px;
+        height: 24.87px;
+    }
+    
+    .banner-txt{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        display: flex;
+        width: 370px;
+        align-items: center;
+        height: 70px;
+    }
+    
+    .banner-txt p{
+        font-size: 29px;
+        font-family: Inter-SemiBold;
+        color: #323142;
+    }
+    
+    .banner-txt img{
+        width: 43.93px;
+        height: 43.93px;
+    }
+    
+    .span-txt{
+        justify-content: space-between;
+        width: 500px;
+        display: block;
+        align-items: center;
+    }
+    
+    span{
+        font-size: 18px;
+        color: #8E97A6;
+        font-family: Inter-r;
+    }
+    
+    /*-------Popular-------*/
+    .Popular{
+        margin-top: 100px;
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Popular p{
+        font-size: 24.89px;
+        color: #323142;
+        font-family: Inter-SemiBold;
+    }
+    
+    .Our_Top_Dishes-img {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .Our_Top_Dishes-img img
+    {
+        width: 146.93px;
+        height: 255.33px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    
+    .main
+    {
+        margin-top: 100px;
+        height: 0;
+        border: 1px solid #cbcbcb;
+    }
+    
+     /*----------------Questions-----------------*/
+     .Questions {
+        width: 430px;
+    }
+    .Questions img{
+        transform: translateX(390px);
+    }
+    .question-block{
+        width: 390px;
+        height: 351.31px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .question-card{
+        display: flex;
+        justify-content: space-between;
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .Questions p{
+        font-family: Inter-SemiBold;
+        font-size: 17px;
+    }
+    
+    .button-plus{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #6C5FBC;
+        color: #F9F9F9;
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    .menu-hr{
+        width: 100%;
+    }
+    /*-----------Footer-------------*/
+    footer
+    {
+        display: none;
+    }
+    .adap-footer
+    {
+        display: block;
+        width: 100%;
+        background: #eaeaea;
+        margin-top: 95px;
+        padding-top: 55px;
+        padding-bottom: 36px;
+    }
+    .f-block1-ad{
+        display: flex;
+        width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-f-ad>img {
+        width: 99.39px;
+        height: 37.45;
+        float: left;
+    }
+    .icons-ad {
+        display: flex;
+        float: right;
+        gap: 20px;
+    }
+    .icons-ad img
+    {
+        height: 16px;
+        width: auto;
+    }
+    .nav-f-ad {
+        margin-top: 53px;
+        display: grid;
+        width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-f-ad ul
+    {
+        display: grid;
+        list-style: none;
+        gap: 30px;
+    }
+    .nav-f-ad ul, li
+    {
+        font-size: 14px;
+        text-decoration: none;
+        color: #999999;
+        font-family: Inter-m;
+        font-weight: 500;
+    }
+    .footer-hr-ad{
+        width: 314px;
+        margin-top: 32px;
+        margin-bottom: 26px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .f-block2-ad {
+        width: 228px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .f-block2-ad>p
+    {
+        float: left;
+        font-size: 13.54px;
+        font-weight: 500;
+        color: #999999;
+        font-family: Inter-m;
+        text-align: center;
+    }
+}

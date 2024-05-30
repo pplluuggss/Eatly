@@ -1,0 +1,136 @@
+
+/*------------------------------*/
+.foto-block
+{
+    float: left;
+    display: flex;
+}
+.contact {
+    display: flex;
+    padding-top: 210px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-img {
+    background-image: url(../img/Contact/Left.png);
+    width: 531px;
+    height: 818px;
+    background-size: cover;
+}
+h1
+{
+    padding-top: 50px;
+    margin-left: 122px;
+    color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.phone {
+    background-image: url(../img/Contact/Mobile.png);
+    width: 512.31px;
+    height: 649.31px;
+    margin-top: 135px;
+    margin-left: 375px;
+}
+@media (max-width:1170px) {
+  .contact{
+    justify-content: center;
+  }
+  .phone{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+}
+@media (max-width:400px) {
+  .phone{
+    display: none;
+  }
+  .contact-img{
+    display: none;
+  }
+}
+.form {
+    float: right;
+    width: 493px;
+    margin-right: 150px;
+}
+.form h2
+{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    color: #252525;
+    padding-bottom: 62px;
+}
+h2 span
+{
+    color: #6C5FBC;
+}
+.contact-form {
+    width: 493px;
+    display: grid;
+    gap: 50px;
+  }
+  .input-group
+  {
+    display: grid;
+    gap: 25px;
+  }
+  .input-group input, .input-group2 textarea  {
+    width: 493px;
+    height: 79px;
+    padding: 21.12px 8px 21.12px 25.34px;
+    box-sizing: border-box;
+    border: 2px solid #6c5fbc;
+    border-radius: 16.89px;
+    background: #f9f9f9;
+
+    color: #b6b6b6;
+    font-family: "Poppins", sans-serif;
+    font-size: 16.89px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .input-group2 textarea {
+    height: 345px;  }
+  
+  .contact-form button {
+    width: 493px;
+    height: 76px;
+    border-radius: 15.88px;
+    background: #6c5fbc;
+    cursor: pointer;
+    border: none;
+
+    color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+    font-size: 20.81px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+@media (max-width:320px) {
+  .input-group input, .input-group2 textarea  {
+    width: 300px;
+  }
+  .contact-form button {
+    width: 300px;
+  }
+  .form h2{
+    font-size: 30px;
+  }
+}
+footer
+{
+    margin-top: 155px;
+}

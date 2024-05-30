@@ -1,0 +1,159 @@
+
+/*-----MAIN----*/
+.Latest_Articles{
+    margin-top: 50px;
+}
+.Latest_Articles>h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    color: #323142;
+    text-align: center;
+}
+
+h1>span{
+    color: #6C5FBC;
+}
+
+.card_block{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card{
+    width: 348px;
+    height: 440px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0px 3.91px 46.86px #BAB3B3;
+    border: 1px solid #ffff;
+
+}
+.card>img{
+    width: 310px;
+    height: 272px;
+    background-size: cover;
+    margin: 25px 19px;
+}
+.card>p{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    margin: 0px 19px;
+}
+p>a{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    text-decoration: none;
+}
+.flex-block{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.avtor{
+    background-image: url(../img/avtor.png);
+    width: 43.7px;
+    height: 43.7px;
+    background-size: cover;
+}
+.name{
+    align-items: center;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.span-block>span{
+    font-size: 12px;
+    color: #8D8D8D;
+    font-family: "Poppins", sans-serif;
+}
+.span-block>p{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+.name>p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #B7B4B4;
+}
+
+.arrows{
+    background-image: url(../img/Arrows.png);
+    width: 180px;
+    height: 30px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*----------------Questions-----------------*/
+.Questions {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.Questions h1
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.Questions img{
+    width: 30px;
+    height: 28px;
+    justify-content: center;
+    transform: translateX(840px);
+    display: none;
+}
+
+.question-block{
+    max-width: 819.2px;
+    height: 351.31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question-card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.Questions p{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+.button-plus{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #6C5FBC;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+/*-----------Footer-------------*/
+footer
+{
+    margin-top: 155px;
+    width: 100%;
+    background: #eaeaea;
+    padding-bottom: 80px;
+}

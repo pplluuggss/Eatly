@@ -1,0 +1,322 @@
+
+/*-------Head-Dash-------*/
+.block--{
+    padding-top: 100px;
+    height: 520px;
+}
+.Head-Dash{
+    width: 1250px;
+    height: 200px; 
+    margin-left: auto;
+    margin-right: auto;    
+    background-color: #5C4EAE;
+    margin-top: 50px;
+}
+.head{
+    width: 1250px;
+    height: 100px;
+    align-items: center;
+    gap: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.vector{
+    background-image: url(../img/Vector-white.png);
+    width: 60px;
+    height: 56px;
+    background-size: cover;
+    transform: translateY(5px);
+}
+
+.head>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    color: #F9F9F9;
+}
+
+.vector2{
+    background-image: url(../img/Vector2-white.png);
+    width: 30px;
+    height: 29px;
+    background-size: cover;
+    transform: translate(170px,30px);
+}
+
+.dash{
+    background-image: url(../img/dash.png);
+    background-size: cover;
+    width: 670px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+.price_list{
+    background-image: url(../img/Price_Card.png);
+    width: 940.8px;
+    height: 876.09px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----------------Control_Purchase------------------*/
+.Control_Purchase {
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    gap: 141px;
+}
+.Purchase_Text h1
+{
+    width: 490px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 50.92px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 85px;
+}
+.img-block-control {
+    display: grid;
+    gap: 15px;
+}
+.img-block-control img
+{
+    width: 345.17px;
+    height: 88.3px;
+    border-radius: 13px;
+}
+.Control_Purchase>img
+{
+    width: 534px;
+    height: 600px;
+}
+.main2
+{
+    height: 0;
+    border: 1px solid #cbcbcb;
+    margin-top: 30px;
+}
+/*--------------Reviews---------------*/
+.Reviews
+{
+    margin-top: 115px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Reviews h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 25.56px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.reviews-block {
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+}
+.reviw {
+    padding-top: 38px;
+    margin-left: 20px;
+    width: 528px;
+    height: 330px;
+    border-radius: 20.89px;
+    background-color: #ffffff;
+}
+/*
+.reviw-blur
+{
+    margin-top: 31px;
+    width: 574px;
+    height: 350px;
+    border-radius: 20.12px;
+    filter: blur(184.39px);
+    background-color: #323142;
+    opacity: 0.2;
+}*/
+.rev-txt {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 442px;
+    color: #636363;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.12px;
+    text-align: justify;
+}
+.header-rev {
+    align-items: center;
+    display: flex;
+    gap: 155px;
+    width: 436px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.pic-rev {
+    width: 71.04px;
+    height: 71.04px;
+}
+.opis h3{
+    color: #030314;
+    font-family: "Poppins", sans-serif;
+    font-size: 20.89px;
+    font-weight: 500;
+    text-align: left;
+}
+.opis p
+{
+    color: #5e5d5d;
+    font-family: "Poppins", sans-serif;
+    font-size: 16.71px;
+    font-weight: 500;
+    text-align: left;
+}
+.pat-user {
+    width: 58.69px;
+    height: 44.25px;
+}
+.star-rev {
+    width: 138px;
+    height: 23px;
+    margin-top: 40px;
+    margin-left: 43px;
+}
+.reviw-mini {
+    display: grid;
+}
+.rev-mini {
+    padding-top: 40px;
+    width: 528px;
+    height: 239px;
+    border-radius: 20.89px;
+    background: #ffffff;
+}
+.rev-mini-txt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 442px;
+    color: #636363;
+    font-family: Inter-r;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.12px;
+    text-align: justify;
+}
+.polosa
+{
+    width: 667px;
+    height: 11px;
+    margin-top: 75px;
+}
+/*
+.rev-mini-blur {
+    width: 574px;
+    height: 350px;
+    border-radius: 20.12px;
+    filter: blur(184.39px);
+    background: #323142;
+    opacity: 0.2;
+    position: fixed;
+}
+*/
+
+/*-----------Footer-------------*/
+.adap-footer
+{
+    display: none;
+}
+footer
+{
+    margin-top: 155px;
+    width: 100%;
+    background: #eaeaea;
+    padding-bottom: 80px;
+}
+.f-block1 {
+    padding-top: 95px;
+    display: flex;
+    align-items: center;
+    width: 1246px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+.logo-f {
+    background-image: url(../img/Logo.svg);
+    width: 150.7px;
+    height: 57px;
+    background-size: cover;
+    float: left;
+}
+.nav-f {
+    display: flex;
+    float: right;
+}
+.nav-f ul
+{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.nav-f ul, li
+{
+    color: #999999;
+    font-family: "Poppins", sans-serif;
+    font-size: 17.83px;
+    font-weight: 500;
+    line-height: 26.74px;
+    text-decoration: none;
+}
+.footer-hr{
+    height: 0;
+    border: 1px solid #818181;
+    opacity: 0.25;
+    width: 1246px;
+    margin-top: 30px;
+    margin-bottom: 57px;
+}
+.f-block2 {
+    justify-content: space-between;
+    display: flex;
+    width: 1246px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.f-block2 p
+{
+    float: left;
+    color: #999999;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.icons {
+    display: flex;
+    float: right;
+    gap: 55px;
+}
+.icons img
+{
+    width: auto;
+    height: 22px;
+}
